@@ -1,0 +1,58 @@
+@import "../variables/variables";
+
+@mixin grid {
+    .contenido-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2rem;
+    }
+    
+}
+
+@mixin botones-generales {
+    .boton {
+        color: $blanco;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 1.8rem;
+        padding: 1rem 3rem;
+        margin-top: 3rem;
+        display: inline-block;
+        text-align: center;
+        border: none;
+        display: block;
+        flex: 0 0 100%;
+    }
+    
+}
+
+@mixin botones-hover {
+    
+.boton:hover {
+    cursor: pointer;}
+.boton-amarillo {
+    background-color: $naranja;}
+.boton-verde {
+    background-color: $verde;}
+}
+
+/** Utilidades **/
+@mixin section-utilidades {
+    .seccion {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+}
+    .fw-300 {
+        font-weight: 300;
+}
+    .centrar-texto {
+        text-align: center;
+}
+    .d-block {
+        display: block!important;
+}
+    .contenido-centrado {
+        max-width: 800px;
+}
+    
+}

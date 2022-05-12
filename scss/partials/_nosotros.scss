@@ -1,0 +1,19 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+@include grid;
+
+.texto-nosotros blockquote {
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+}
+.icono {
+    text-align: center;
+}
+.icono h3 {
+    text-transform: uppercase;
+}
+

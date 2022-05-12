@@ -1,0 +1,33 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+@include botones-generales;
+@include botones-hover;
+@include section-utilidades;
+.entrada-blog {
+    margin-bottom: 2rem;
+}
+.entrada-blog:last-of-type {
+    margin-bottom: 0;
+}
+.texto-entrada a {
+    color: $negro;
+    text-decoration: none;
+}
+.texto-entrada h4 {
+    margin: 0;
+    line-height: 1.4;
+}
+.texto-entrada h4::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: $verde;
+    margin-top: 1rem;
+}
+.texto-entrada span {
+    color: $naranja;
+}
+
