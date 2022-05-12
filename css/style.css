@@ -14,9 +14,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
 * {
-  margin: 0;
-  padding: 0; }
+    margin: 0;
+    padding: 0;
+}
 
 /*FUENTES*/
 /*COLORES*/
@@ -48,73 +50,92 @@
 /** Utilidades **/
 /**GOBLALES*/
 img {
-  max-width: 100%; }
+    max-width: 100%;
+}
 
 .contenedor {
-  width: 95%;
-  max-width: 120rem;
-  /** = 1200px; **/
-  margin: 0 auto; }
+    width: 95%;
+    max-width: 120rem;
+    /** = 1200px; **/
+    margin: 0 auto;
+}
 
 .site-header {
-  background-color: #333333;
-  padding: 1rem 0 3rem 0; }
-  .site-header .site-header.inicio {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+
+.site-header .site-header.inicio {
     background-image: url(../img/header.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    min-height: 60rem; }
-  .site-header .contenido-header {
+    min-height: 60rem;
+}
+
+.site-header .contenido-header {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center; }
-  .site-header .contenido-header h1 {
+    text-align: center;
+}
+
+.site-header .contenido-header h1 {
     color: #ffffff;
     padding-bottom: 2rem;
     max-width: 60rem;
-    line-height: 2; }
-  .site-header .barra {
-    padding-top: 3rem; }
+    line-height: 2;
+}
+
+.site-header .barra {
+    padding-top: 3rem;
+}
 
 .testimonial {
-  background-color: #71B100;
-  font-size: 2.4rem;
-  padding: 2rem;
-  color: #ffffff;
-  border-radius: 2rem; }
-  .testimonial p {
-    text-align: right; }
+    background-color: #71B100;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: #ffffff;
+    border-radius: 2rem;
+}
+
+.testimonial p {
+    text-align: right;
+}
 
 .testimonial blockquote::before {
-  content: '';
-  background-image: url(../img/comilla.svg);
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  left: -2rem; }
+    content: '';
+    background-image: url(../img/comilla.svg);
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: -2rem;
+}
 
 .testimonial blockquote {
-  position: relative;
-  padding-left: 5rem;
-  font-weight: 300; }
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 300;
+}
 
 .imagen-contacto {
-  background-image: url(../img/encuentra.jpg);
-  background-position: center center;
-  background-size: cover;
-  height: 40rem;
-  display: flex;
-  align-items: center; }
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
 
 .contenido-contacto {
-  flex: 0 0 95%;
-  color: #ffffff; }
+    flex: 0 0 95%;
+    color: #ffffff;
+}
 
 .contenido-contacto p {
-  font-size: 1.8rem; }
+    font-size: 1.8rem;
+}
 
 /*FUENTES*/
 /*COLORES*/
@@ -131,67 +152,82 @@ img {
 /*GENERAL*/
 /** Utilidades **/
 .boton {
-  color: #ffffff;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 1.8rem;
-  padding: 1rem 3rem;
-  margin-top: 3rem;
-  display: inline-block;
-  text-align: center;
-  border: none;
-  display: block;
-  flex: 0 0 100%; }
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 0 0 100%;
+}
 
 .boton:hover {
-  cursor: pointer; }
+    cursor: pointer;
+}
 
 .boton-amarillo {
-  background-color: #E08709; }
+    background-color: #E08709;
+}
 
 .boton-verde {
-  background-color: #71B100; }
+    background-color: #71B100;
+}
 
 .seccion {
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 .fw-300 {
-  font-weight: 300; }
+    font-weight: 300;
+}
 
 .centrar-texto {
-  text-align: center; }
+    text-align: center;
+}
 
 .d-block {
-  display: block !important; }
+    display: block !important;
+}
 
 .contenido-centrado {
-  max-width: 800px; }
+    max-width: 800px;
+}
 
 .entrada-blog {
-  margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+}
 
 .entrada-blog:last-of-type {
-  margin-bottom: 0; }
+    margin-bottom: 0;
+}
 
 .texto-entrada a {
-  color: #000000;
-  text-decoration: none; }
+    color: #000000;
+    text-decoration: none;
+}
 
 .texto-entrada h4 {
-  margin: 0;
-  line-height: 1.4; }
+    margin: 0;
+    line-height: 1.4;
+}
 
 .texto-entrada h4::after {
-  content: '';
-  display: block;
-  width: 15rem;
-  height: .5rem;
-  background-color: #71B100;
-  margin-top: 1rem; }
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: #71B100;
+    margin-top: 1rem;
+}
 
 .texto-entrada span {
-  color: #E08709; }
+    color: #E08709;
+}
 
 /*FUENTES*/
 /*COLORES*/
@@ -208,35 +244,44 @@ img {
 /*GENERAL*/
 /** Utilidades **/
 /** Footer **/
-.contenedor-anuncios{
+.contenedor-anuncios {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-} 
+}
 
-.anuncio{
+.anuncio {
     flex: 0 0 calc(33.3% - 1rem);
 }
+
 .navegacion a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 2.2rem;
-  margin-right: 2rem;
-  display: block; }
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2.2rem;
+    margin-right: 2rem;
+    display: block;
+}
 
 .navegacion a:hover {
-  color: #71B100; }
+    color: #71B100;
+}
 
 .navegacion a:last-of-type {
-  margin: 0; }
+    margin: 0;
+}
 
 .site-footer {
-  background-color: #333333;
-  margin: 0; }
-  .site-footer .contenedor-footer {
-    padding: 3rem 0;
-    text-align: center; }
-  .site-footer .copyright {
+    background-color: #333333;
     margin: 0;
-    color: #ffffff; }
+}
+
+.site-footer .contenedor-footer {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.site-footer .copyright {
+    margin: 0;
+    color: #ffffff;
+}
