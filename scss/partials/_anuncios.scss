@@ -6,6 +6,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}  
 
-@include grid
+.contenedor-anuncios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+
+.anuncio{
+    flex: 0 0 calc(33.3% - 1rem);
+}
