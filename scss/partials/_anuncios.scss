@@ -6,15 +6,60 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}  
+}
 
-.contenedor-anuncios{
+.contenedor-anuncios {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-} 
+}
 
-.anuncio{
+.anuncio {
     flex: 0 0 calc(33.3% - 1rem);
+}
+
+/** Anuncios **/
+
+.anuncio {
+    border: 1px solid #B5B5B5;
+    background-color: #F5F5F5;
+    margin-bottom: 2rem;
+
+    .contenido-anuncio {
+        padding: 2rem;
+    }
+
+    .contenido-anuncio h3,
+    .contenido-anuncio p {
+        margin: 0;
+    }
+
+    .precio {
+        color: #71B100;
+        font-weight: 700;
+    }
+
+    .iconos-caracteristicas {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex: 1;
+        max-width: 500px;
+    }
+}
+
+.iconos-caracteristicas li {
+    /* flex: 1; */
+    display: flex;
+
+    .iconos-caracteristicas li img {
+        margin-right: 2rem;
+    }
+
+    .ver-todas {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
