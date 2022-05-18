@@ -2,59 +2,6 @@
 @import "../sass2/extend";
 @import "../sass2/mixins";
 
-.contacto p {
-    font-size: 1.4rem;
-    color: #4f4f4f;
-    margin: 2rem 0 0 0;
-
-    legend {
-        font-size: 2rem;
-        color: #4f4f4f;
-    }
-
-    label {
-        font-weight: 700;
-        text-transform: uppercase;
-        display: block;
-    }
-
-    input:not([type="submit"]),
-    textarea,
-    select {
-        padding: 1rem;
-        display: block;
-        width: 100%;
-        background-color: #e1e1e1;
-        margin-bottom: 2rem;
-        border: none;
-        border-radius: 1rem;
-    }
-
-}
-
-
-
-input[type="radio"] {
-    width: auto;
-    margin: 0;
-
-    select {
-        -webkit-appearance: none;
-        appearance: none;
-    }
-
-    textarea {
-        height: 20rem;
-    }
-
-    .forma-contacto {
-        max-width: 30rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
-
 /** Contacto Home **/
 .imagen-contacto {
     background-image: url(../img/encuentra.jpg);
@@ -63,13 +10,103 @@ input[type="radio"] {
     height: 40rem;
     display: flex;
     align-items: center;
+}
 
-    .contenido-contacto {
-        flex: 0 0 95%;
-        color: #ffffff;
-    }
+.contenido-contacto {
+    flex: 0 0 95%;
+    color: #ffffff;
+}
 
-    .contenido-contacto p {
-        font-size: 1.8rem;
-    }
+.contenido-contacto p {
+    font-size: 1.8rem;
+}
+
+
+/*ENTRADA BLOG*/
+.entrada-blog {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.entrada-blog {
+    margin-bottom: 0.1rem;
+}
+
+.entrada-blog:last-of-type {
+    margin-bottom: 1;
+}
+
+.texto-entrada a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.texto-entrada h4 {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.texto-entrada h4::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: #71B100;
+    margin-top: 1rem;
+}
+
+.texto-entrada span {
+    color: #E08709;
+}
+
+
+/** Contacto **/
+.contacto p {
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+
+legend {
+    font-size: 2rem;
+    color: #4f4f4f;
+}
+
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+textarea {
+    height: 20rem;
+}
+
+.forma-contacto {
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

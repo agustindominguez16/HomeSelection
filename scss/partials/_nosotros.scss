@@ -2,7 +2,24 @@
 @import "../sass2/extend";
 @import "../sass2/mixins";
 
-@include grid;
+/** Iconos Nosotros **/
+
+.icono {
+    text-align: center;
+    padding: 20px;
+}
+
+.icono h3 {
+    text-transform: uppercase;
+}
+
+/** INTERNAS **/
+/* Nosotros **/
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+}
 
 .texto-nosotros blockquote {
     font-weight: 900;
@@ -12,101 +29,31 @@
 }
 
 
-/** Iconos Nosotros **/
 
-.icono {
-    text-align: center;
-
-    .icono h3 {
-        text-transform: uppercase;
-    }
+/*** Testimoniales **/
+.testimonial {
+    background-color: #71B100;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: #ffffff;
+    border-radius: 2rem;
 }
 
-/** INTERNAS **/
-/* Nosotros **/
-.contenido-nosotros {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 2rem;
-
-    .texto-nosotros blockquote {
-        font-weight: 900;
-        font-size: 2rem;
-        margin: 0;
-        padding: 1rem 0 3rem 0;
-    }
+.testimonial p {
+    text-align: right;
 }
 
-/*Cards*/
-.container-card {
-    width: 100%;
-    display: flex;
-    max-width: 1100px;
-    margin: auto;
-
-    .title-cards {
-        width: 100%;
-        max-width: 1080px;
-        margin: auto;
-        padding: 20px;
-        margin-top: 20px;
-        text-align: center;
-        color: #7a7a7a;
-    }
-
-    .card {
-        width: 100%;
-        margin: 20px;
-        border-radius: 6px;
-        overflow: hidden;
-        background: #fff;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-        transition: all 400ms ease-out;
-        cursor: default;
-    }
-
-    .card:hover {
-        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-        transform: translateY(-3%);
-    }
-
-    .card img {
-        width: 100%;
-        height: 210px;
-    }
-
-    .card .contenido-card {
-        padding: 15px;
-        text-align: center;
-    }
-}
-.card .contenido-card h3 {
-    margin-bottom: 15px;
-    color: #7a7a7a;
-
-    .card .contenido-card p {
-        line-height: 1.8;
-        color: #6a6a6a;
-        font-size: 14px;
-        margin-bottom: 5px;
-    }
-
-    .card .contenido-card a {
-        display: inline-block;
-        padding: 10px;
-        margin-top: 10px;
-        text-decoration: none;
-        color: #2fb4cc;
-        border: 1px solid #2fb4cc;
-        border-radius: 4px;
-        transition: all 400ms ease;
-        margin-bottom: 5px;
-    }
-
-    .card .contenido-card a:hover {
-        background: #2fb4cc;
-        color: #fff;
-    }
+.testimonial blockquote::before {
+    content: '';
+    background-image: url(../img/comilla.svg);
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: -2rem;
 }
 
-/*Fin-Cards*/
+.testimonial blockquote {
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 300;
+}

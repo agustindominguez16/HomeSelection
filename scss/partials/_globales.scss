@@ -1,0 +1,56 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+/** Globales **/
+img {
+    max-width: 100%;
+
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    /** = 1200px; **/
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+
+/** Utilidades **/
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.d-block {
+    display: block !important;
+}
+
+
+.contenido-centrado {
+    max-width: 800px;
+}

@@ -1,14 +1,27 @@
-*{  margin: 0;
-    padding: 0;}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
 @import "variables/variables";
 @import "sass2/extend";
 @import "sass2/mixins";
 @import "partials/header";
-@import "partials/section";
 @import "partials/footer";
 @import "partials/anuncios";
-@import "partials/bootstrap";
+@import "partials/globales";
 @import "partials/contacto";
 @import "partials/nosotros";
 @import "partials/queries";
+@import "partials/botones";
+@import "partials/cartas";
 
