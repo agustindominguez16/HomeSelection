@@ -1,5 +1,40 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
@@ -14,7 +49,30 @@ body {
   padding: 0;
   margin: 0; }
 
-
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
 /* Header */
 .site-header {
   background-color: #333333;
@@ -57,11 +115,22 @@ body {
 .navegacion a:last-of-type {
   margin: 0; }
 
-
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
 /** Footer **/
 .site-footer {
   background-color: #333333;
-  margin: 0 auto; }
+  margin-top: auto; }
 
 .contenedor-footer {
   padding: 3rem 0;
@@ -71,7 +140,18 @@ body {
   margin: 0;
   color: #ffffff; }
 
-
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
 /* ---------- Articulos ----------*/
 .articulo {
   display: flex;
@@ -171,7 +251,18 @@ a {
   justify-content: space-between;
   align-items: center; }
 
-
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
 /** Globales **/
 img {
   max-width: 100%; }
@@ -211,7 +302,18 @@ h4 {
 .contenido-centrado {
   max-width: 800px; }
 
-
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
 /** Contacto Home **/
 .imagen-contacto {
   background-image: url(../img/encuentra.jpg);
@@ -219,7 +321,8 @@ h4 {
   background-size: cover;
   height: 40rem;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin: 30px auto; }
 
 .contenido-contacto {
   flex: 0 0 95%;
@@ -301,7 +404,18 @@ textarea {
   justify-content: space-between;
   align-items: center; }
 
-
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
 /** Iconos Nosotros **/
 .icono {
   text-align: center;
@@ -347,7 +461,9 @@ textarea {
   padding-left: 5rem;
   font-weight: 300; }
 
-
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
 /**RESPONSIVE**/
 /*CARDS*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -482,7 +598,18 @@ textarea {
     grid-column-gap: 2rem; }
   /**CONTENIDO NOSOTROS*/ }
 
-
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
 /** Botones **/
 .boton {
   color: #ffffff;
@@ -506,7 +633,18 @@ textarea {
 .boton-verde {
   background-color: #71B100; }
 
-
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
+/*FUENTES*/
+/*COLORES*/
+/*GENERAL*/
 /*Cards*/
 .container-card {
   width: 100%;
