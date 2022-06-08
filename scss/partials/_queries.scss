@@ -2,6 +2,7 @@
 
 /**RESPONSIVE**/
 /*CARDS*/
+
 @media only screen and (min-width:320px) and (max-width:768px) {
     .container-card {
         flex-wrap: wrap;
@@ -28,6 +29,22 @@
 
     /**ANUNCIOS**/
 
+}
+@media screen and (min-width:520px){
+    .site-header.inicio{
+        
+        background-size: cover;
+        height: 100%;
+    }
+
+    .iconos-nosotros {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icono {
+        flex-basis: calc(33.3% - 1rem);
+    }  
 }
 
 @media (min-width: 368px) {
